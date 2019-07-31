@@ -12,7 +12,6 @@ xkcd_get = "0.1.0"
 ## Usage
 
 ```rust
-extern crate xkcd_get;
 use xkcd_get::Comic;
 
 fn main () {
