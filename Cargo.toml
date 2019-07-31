@@ -4,6 +4,17 @@ version = "0.1.0"
 authors = ["Ethan McTague <ethan@tague.me>"]
 edition = "2018"
 description = "XKCD API interface with all response fields, proper handling of dates, and documentation!"
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+homepage = "https://github.com/emctague/xkcd-get"
+repository = "https://github.com/emctague/xkcd-get"
+readme = "README.md"
+keywords = ["xkcd", "api", "get"]
+categories = ["api-bindings"]
+license = "MIT"
+
 
 [dependencies]
 reqwest = "0.9.19"
