@@ -1,3 +1,31 @@
+//! `xkcd_get` gives access to xkcd's JSON API through the [`Comic`] struct.
+//! Basic examples are provided on this page, see the [`Comic`] struct's page for specifics.
+//!
+//! # Examples
+//!
+//! ## Getting the Latest Comic
+//!
+//! ```
+//! use xkcd_get::Comic;
+//!
+//! fn main () {
+//!     let data = Comic::latest().unwrap();
+//!     println!("Comic Number {}: '{}'", data.num, data.title);
+//! }
+//! ```
+//!
+//! ## Getting a Comic by Number
+//!
+//! ```
+//! use xkcd_get::Comic;
+//!
+//! fn main () {
+//!     let data = Comic::get(327).unwrap();
+//!     println!("Comic Number {}: '{}'", data.num, data.title);
+//!     // Comic Number 327: 'Exploits of a Mom'
+//! }
+//! ```
+
 use serde::{Deserialize};
 use chrono::{Utc, Date, TimeZone};
 use std::error::Error;
