@@ -9,7 +9,7 @@
 
 ```toml
 [dependencies]
-xkcd_get = "0.1.2"
+xkcd_get = "0.2.0"
 ```
 
 ## Usage

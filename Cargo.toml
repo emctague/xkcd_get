@@ -1,6 +1,6 @@
 [package]
 name = "xkcd_get"
-version = "0.1.2"
+version = "0.2.0"
 authors = ["Ethan McTague <ethan@tague.me>"]
 edition = "2018"
 description = "XKCD API interface with all response fields, proper handling of dates, and documentation!"

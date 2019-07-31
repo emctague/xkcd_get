@@ -40,7 +40,6 @@ struct ComicRequest {
     link: String,
     year: String,
     news: String,
-    safe_title: String,
     transcript: String,
     alt: String,
     img: String,
@@ -53,8 +52,6 @@ struct ComicRequest {
 pub struct Comic {
     /// The full title of the comic
     pub title: String,
-    /// The title of the comic formatted for safe use in an HTML title tag
-    pub safe_title: String,
     /// A URL to this comic on the xkcd site
     pub link: String,
     /// The comic number
@@ -76,7 +73,6 @@ impl ComicRequest {
     fn comic (self) -> Comic {
         Comic {
             title: self.title,
-            safe_title: self.safe_title,
             link: self.link,
             num: self.num,
             img: self.img,
@@ -120,7 +116,6 @@ mod tests {
     fn test_get () {
         let data = Comic::get(10).unwrap();
         assert_eq!(data.title, String::from("Pi Equals"));
-        assert_eq!(data.safe_title, String::from("Pi Equals"));
         assert_eq!(data.link, String::from(""));
         assert_eq!(data.num, 10);
         assert_eq!(data.img, String::from("https://imgs.xkcd.com/comics/pi.jpg"));
