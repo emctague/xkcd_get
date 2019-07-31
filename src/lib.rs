@@ -1,9 +1,7 @@
-extern crate reqwest;
-extern crate chrono;
-
 use serde::{Deserialize};
 use chrono::{Utc, Date, TimeZone};
 use std::error::Error;
+use reqwest;
 
 /// Intermediate format for comic information, as retrieved from serde
 /// Lots of values are strings, or split up, which are cleaned up in the `Comic` struct instead
