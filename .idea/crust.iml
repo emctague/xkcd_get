@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/../xkcd_get">
+      <sourceFolder url="file://$MODULE_DIR$/../xkcd_get/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../crust\examples" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../crust\tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../crust\benches" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/../xkcd_get/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

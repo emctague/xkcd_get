@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/crust.iml" filepath="$PROJECT_DIR$/.idea/crust.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xkcd_get/.idea/crust.iml" filepath="$PROJECT_DIR$/../xkcd_get/.idea/crust.iml" />
     </modules>
   </component>
 </project>
