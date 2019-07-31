@@ -10,7 +10,7 @@ readme = "README.md"
 keywords = ["xkcd", "api", "get"]
 categories = ["api-bindings"]
 license = "MIT"
-exclude = ["target", ".idea", ".gitignore"]
+exclude = ["target", ".idea/*", ".gitignore"]
 
 [dependencies]
 reqwest = "0.9.19"
