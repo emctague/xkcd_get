@@ -1,0 +1,11 @@
+[package]
+name = "xkcd-get"
+version = "0.1.0"
+authors = ["Ethan McTague <ethan@tague.me>"]
+edition = "2018"
+description = "XKCD API interface with all response fields, proper handling of dates, and documentation!"
+
+[dependencies]
+reqwest = "0.9.19"
+serde = "1.0.98"
+chrono = "0.4"
