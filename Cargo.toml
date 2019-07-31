@@ -1,5 +1,5 @@
 [package]
-name = "xkcd-get"
+name = "xkcd_get"
 version = "0.1.0"
 authors = ["Ethan McTague <ethan@tague.me>"]
 edition = "2018"
@@ -8,8 +8,8 @@ include = [
     "**/*.rs",
     "Cargo.toml",
 ]
-homepage = "https://github.com/emctague/xkcd-get"
-repository = "https://github.com/emctague/xkcd-get"
+homepage = "https://github.com/emctague/xkcd_get"
+repository = "https://github.com/emctague/xkcd_get"
 readme = "README.md"
 keywords = ["xkcd", "api", "get"]
 categories = ["api-bindings"]
