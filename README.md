@@ -2,6 +2,7 @@
 
 [![Crates.io](https://img.shields.io/crates/v/xkcd_get?style=flat-square)](https://crates.io/crates/xkcd_get)
 [![docs.rs](https://docs.rs/xkcd_get/badge.svg)](https://docs.rs/xkcd_get)
+[![Build Status](https://travis-ci.org/emctague/xkcd_get.svg?branch=master)](https://travis-ci.org/emctague/xkcd_get)
 
 `xkcd_get` provides a simple way of retrieving xkcd comic information.
 
